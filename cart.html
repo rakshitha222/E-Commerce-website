@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,inial-scale="1.0">
+        <title> ALL PRODUCTS-FASHION</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="pics/logo.png" width="50px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Abount</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="pics/cart1.png" width="30px" height="30px">
+                <img src="pics\menu.png" class="menu-icon"
+                onclick="menutoggle()">
+            </div>
+        </div>
+<!---- cart items details-->
+        <div class="small-container cart-page">
+            <table cellspacing="10" cellpadding="5">
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="pics\buy-1.jpg">
+                            <div>
+                                <p>pink high printed blouse</p>
+                                <small> Price:Rs=200/-</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td> Rs=500/-</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="pics\buy-3.jfif">
+                            <div>
+                                <p>Ash wide sleeves model</p>
+                                <small> Price:Rs=500/-</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td> Rs=500/-</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="pics\buy-2.png">
+                            <div>
+                                <p>pink best suited blouse</p>
+                                <small> Price:Rs=250/-</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td> Rs=500/-</td>
+                </tr>
+            </table>
+            <div class="total-price">
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>Rs=200/-</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>Rs=35/-</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>Rs=235/-</td>
+                    </tr>
+                </table>
+            </div>
+
+
+
+        </div>
+         
+    <div class="footer">
+        <div class="container">
+            <div class="footer-col-1">
+                <h3> Download Our App</h3>
+                <p> Download App for android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="pics\playstore.webp">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="pics\logo.png">
+                <p> Holds certifications</p>
+            </div>
+            <div class="footer-col-3">
+                <h3> Useful links</h3>
+                <ul>
+                    <li>Coipons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Fasebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        var  MenuItems=document.getElementById("MenuItems");
+        MenuItems.style.maxHeight='0px';
+        function menutoggle(){
+            if (MenuItems.style.maxHeight == '0px') {
+                MenuItems.style.maxHeight = '200px';
+            } else {
+                MenuItems.style.maxHeight = '0px';
+            }
+        }
+    </script>
+    </body>
+</html>

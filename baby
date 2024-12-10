@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> KAVITHA LADIES TAILOR | ECOMMERCE WEBSITE DESIGN</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="pics\Oppo-Logo.wine.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="pics\paypal-logo.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="pics\logo-philips.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="pics\Godrej_Logo.svg.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="pics\Coca-Cola-logo.png">
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </body>
+</html>
+
